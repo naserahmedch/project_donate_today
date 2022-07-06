@@ -4,6 +4,21 @@
 	padding: 0;
 }
 
+/* Common css */
+.common_header h2 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.common_p p {
+	font-size: 25px;
+	max-width: 880px;
+	margin-left: 29%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
 .header {
 	background-image: url(img/bg_img.jpg);
 	height: 100vh;
@@ -49,18 +64,6 @@
 	height: 900px;
 	margin-top: 200px;
 	text-align: center;
-}
-
-.donate_sec_header h2 {
-	font-size: 60px;
-}
-
-.donate_sec_header p {
-	font-size: 25px;
-	max-width: 880px;
-	margin-left: 29%;
-	margin-top: 20px;
-	margin-bottom: 40px;
 }
 
 .donate_sec_amount {
@@ -121,4 +124,45 @@
 
 .donate_button {
 	margin-bottom: 200px;
+}
+
+.donate_plan_items {
+	margin-bottom: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+.donate_plan_item {
+	width: 20%;
+	height: 350px;
+	background-color: #D8E9EB;
+	padding: 35px;
+	border-radius: 5px;
+	margin-right: 30px;
+}
+
+.donate_plan_item img {
+	height: 70px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.donate_plan_item h3 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.donate_plan_item p {
+	font-size: 21px;
+	max-width: 380px;
+	color: #707070;
+}
+
+.pink {
+	background-color: #FFEFEF;
+}
+
+.yellow {
+	background-color: #FFF4D6;
 }
