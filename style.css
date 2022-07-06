@@ -40,13 +40,13 @@
 	text-decoration: none;
 	color: white;
 	padding: 15px 30px;
-	background-color: tomato;
+	background-color: #FF5959;
 	border-radius: 5px;
 	font-size: 25px;
 }
 
 .donate_sec {
-	height: 700px;
+	height: 900px;
 	margin-top: 200px;
 	text-align: center;
 }
@@ -82,10 +82,43 @@
 }
 
 #selected_amount {
-	color: tomato;
-	border: 3px solid tomato;
+	color: #FF5959;
+	border: 3px solid #FF5959;
 	padding: 30px 30px;
 	width: 135px;
 	height: 123px;
 	background-color: #FFEEEE;
+}
+
+.input_amount {
+	margin-bottom: 50px;
+}
+
+.input_amount input {
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #DADADA;
+	font-size: 25px;
+	color: #FF5959;
+	text-align: center;
+}
+
+.input_amount input:focus {
+	outline: none;
+}
+
+.donate_button a {
+	text-decoration: none;
+	color: white;
+	padding: 15px 30px;
+	background-color: #FF5959;
+	border-radius: 5px;
+	font-size: 25px;
+}
+
+.donate_button {
+	margin-bottom: 200px;
 }
