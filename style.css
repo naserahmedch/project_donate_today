@@ -1,0 +1,18 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-image: url(img/bg_img.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg_overlay{
+	background: linear-gradient(transparent, black);
+	height: 100vh;
+}
+.header_content{
+	color: white;
+}
